@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.andreas.money.AusActivity">
+
+    <ImageButton
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:id="@+id/imageButton6"
+        android:background="@drawable/bluebus"
+        android:layout_alignTop="@+id/imagepet"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_column="12" />
+
+    <ImageButton
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:background="@drawable/bluechem"
+        android:id="@+id/imageButton4"
+        android:layout_alignTop="@+id/imageparf"
+        android:layout_alignLeft="@+id/imagealco"
+        android:layout_alignStart="@+id/imagealco"
+        android:layout_column="0"
+        android:layout_gravity="left|center_vertical" />
+
+    <ImageButton
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:id="@+id/imageButton3"
+        android:background="@drawable/blueparfum"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/bback"
+        android:layout_alignEnd="@+id/bback"
+        android:layout_gravity="center"
+        android:layout_column="14" />
+
+    <ImageButton
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:id="@+id/imageButton2"
+        android:background="@drawable/bluepet"
+        android:layout_above="@+id/bback"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_column="14"
+        android:layout_gravity="right|center_vertical" />
+
+    <ImageButton
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:id="@+id/imageButton1"
+        android:background="@drawable/bluehome"
+        android:layout_above="@+id/bback"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_span="0"
+        android:layout_gravity="left|top" />
+
+    <ImageButton
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:id="@+id/imageButton10"
+        android:background="@drawable/bluefoods"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/bback"
+        android:layout_alignEnd="@+id/bback"
+        android:layout_gravity="right|top"
+        android:layout_column="14" />
+
+    <ImageButton
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:id="@+id/imageButton5"
+        android:background="@drawable/blueclo"
+        android:layout_alignTop="@+id/imagechem"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="right|bottom"
+        android:layout_column="12" />
+
+    <ImageButton
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:id="@+id/imageButton8"
+        android:background="@drawable/bluealco"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="left|bottom"
+        android:layout_column="12" />
+
+    <ImageButton
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:id="@+id/imageButton7"
+        android:background="@drawable/bluefood"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center_horizontal|bottom" />
+</FrameLayout>
